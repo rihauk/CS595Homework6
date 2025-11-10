@@ -53,7 +53,7 @@ export class MerkleTree implements IMerkleTree {
    * Must be 32 bytes (0x-prefixed 64 hex characters) to avoid buffer issues in Fr.
    */
   readonly zeroValue = Fr.fromString(
-    '18d85f3de6dcd78b6ffbf5d8374433a5528d8e3bf2100df0b7bb43a4c59ebd63',
+    '2df8b940e5890e4e1377e05373fae69a1d754f6935e6a780b666947431f2cdcd',
   );
 
   /**
