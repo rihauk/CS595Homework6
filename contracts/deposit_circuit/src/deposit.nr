@@ -6,9 +6,9 @@ fn main(
     id: Field,
     r: Field,
     hash_path: [Field; 8],
-    old_root: Field,
-    new_root: Field,
-    commitment: Field,
+    old_root: pub Field,
+    new_root: pub Field,
+    commitment:pub Field,
     index: Field,
 ) {
     // 1. Constraint: Commitment Integrity

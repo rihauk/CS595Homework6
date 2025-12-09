@@ -6,8 +6,8 @@ fn main(
     r: Field,
     index: Field,
     hash_path: [Field; 8],
-    root: Field,
-    id: Field,
+    root: pub Field,
+    id: pub Field,
 ) {
     //TODO: implement the logic for the withdraw circuit
 // 1. Reconstruct the Commitment
